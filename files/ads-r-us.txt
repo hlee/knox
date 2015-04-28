@@ -1,0 +1,10 @@
+'Very Big Campaign', 14284, 65, 53.7032, 12/12/2014
+'Very Big Campaign', 1632, 53, 23.7032, 13/12/2014
+'Very Big Campaign', 323, 8, 5.47957, 14/12/2014
+'Very Big Campaign', 143, 6, 92.745, 15/12/2014
+'small campaign', 12, 4, 92.745, 13/12/2014
+'small campaign', 1203, 12, 40.25922264, 14/12/2014
+'small campaign', 12452, 434, 9.375583, 15/12/2014
+'small campaign', 10212, 42, 92.745, 16/12/2014
+
+  
