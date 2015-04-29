@@ -9,8 +9,8 @@ class Knox
     IO.readlines(file_path, line_break).each do |line|
       next if line.length < 8
       arr = split_line(line, separator, sequence.count)
-      exchangename = file_path.match(/\/([^\/]*)\.txt/)[1]
-      @datas << Cell.new(arr, sequence, dateformat, exchangename)
+      exchange_name = file_path.match(/\/([^\/]*)\.txt/)[1]
+      @datas << Cell.new(arr, sequence, dateformat, exchange_name)
     end
   end
 

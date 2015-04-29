@@ -1,0 +1,29 @@
+<h1 id="knox-code-challenge">KNOX code challenge</h1>
+<p>The KNOX team imports data from many sources.  The data doesn't always follow a consistent format.  In this challenge you will write a program that reads in data in various formats and outputs the data as a sorted csv.</p>
+<h1 id="input">Input</h1>
+<p>You will receive three input files from three ad exchanges</p>
+<ul>
+<li>Ads-R-Us: <code>AdCampaignName, Impressions, Clicks, TotalSpend, date(dd-mm-yyy)</code></li>
+<li>BannerMart: <code>date(mm/dd/yy) | AdCampaignName | Clicks | Impressions | TotalSpend</code></li>
+<li>TrippleClick: <code>Impressions Clicks TotalSpend AdCampaignName date(yyyymmdd)</code></li>
+</ul>
+<h1 id="output">Output</h1>
+<p>Output each row as follows:</p>
+<p><code>ExchangeName, Date, AdCampaignName, Clicks, Impressions, Spend</code></p>
+<p>Order the rows according to the following rules.
+Rule one takes precedence over rule two etc.</p>
+<ol>
+<li>If the number of clicks is greater than 10% of impression list the row first </li>
+<li>Date ascending</li>
+<li>Exchange Name alphabetical</li>
+<li>Ad Campaign Name reverse alphabetical </li>
+</ol>
+<h1 id="requirements-">Requirements</h1>
+<ul>
+<li>Write your solution in Ruby, Python or Node.</li>
+<li>Use only the standard libraries and test framework of your choice.</li>
+<li>Include a readme that specifies the programming language and version you used and how to run your program.</li>
+<li>Include tests.</li>
+<li>We will be looking for object oriented design, readability, maintainability and effective use of of the language. </li>
+</ul>
+<p>If you have any questions feel free to email us.</p>
